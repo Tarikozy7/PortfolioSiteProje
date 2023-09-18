@@ -1,0 +1,239 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2? family= Comic+Neue:ital@1 & family= Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,300;1,400; 1.500 & görüntü=takas');
+
+/*FORMAT*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*HEADER START*/
+header{
+    background-color: rgba(33, 33, 33, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    border: 2px solid #ffffff;
+}
+.logo{
+    color: #fff;
+    font-size: 10px;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin: 2px auto;
+    padding: 10 px 0;
+    justify-content: space-between;
+    
+}
+.navlink{
+    display: flex;
+     }
+.navlink li a {
+    color:#fff;
+    margin-left: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    
+}
+
+.navlink li a:hover{
+    background-color: #24caac;
+}
+.logo h2 a{
+    color: #fff;
+}
+/*HEADER END*/
+
+/*SECTİON*/
+section{
+    padding: 100px 0 ;
+    background-color: #122E44;
+}
+img{
+    width: 100% 0 ;
+}
+
+/* HOME SECTİON START */
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+.home_child{
+    flex-basis: 45%;
+}
+.home_child h1{
+    color: #24caac;
+    font-size: 50px;
+}
+.span{
+    color: #df376e;
+}
+.home_child p{
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.btn{
+   background-color: #24caac;
+   padding: 12px 40px;
+   border-radius: 15px;
+   color: #fff;
+   font-size: large;
+   border: 1px solid #fff;
+   
+}
+.btn:hover{
+    cursor: pointer;
+    background: transparent;
+    letter-spacing: 1px;
+}
+/* HOME SECTİON END */
+
+/* SOFTWARE SECTİON START */
+.section_title{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 50px;
+    transition: .5s all ease-in-out;
+    position: relative;
+}
+.section_title:hover{
+    background-color: #24caac;
+}
+.software{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.software_child{
+    color: white;
+    background-color: #01101a;
+    flex-basis: 25%;
+    padding: 35px 15px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    transition: .5s ease-in-out
+}
+.software_child:hover{
+    border: 1px solid #24caac;
+}
+.software_child .icon{
+    color: #24caac;
+    font-size: 25px
+}
+/* SOFTWARE SECTİON END */
+
+/*CERTİFİCATES SECTİON START*/
+
+.certificates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.certificates_child{
+    flex-basis: 24%;
+    color: #fff;
+    padding: 24px 10px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+.certificates_child:hover{
+   border: 1px solid #24caac
+}
+.certificates_child .detail{
+    display: flex;
+    justify-content: space-between;
+}
+.certificates_child .detail ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+.certificates_child .detail ul li{
+    color: gold;
+}
+/*CERTİFİCATES SECTİON END*/
+/*SUCCESS SECTİON START  */
+.success{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.success_child{
+    flex-basis: 40%;
+}
+.success_child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.success_child2{
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.single_detail{
+    flex-basis: 40%;
+    padding: 40px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.single_detail:hover{
+    transform: scale(1.05) ;
+}
+.sd_1{
+    background-color: #eaa022;
+    margin: 20px;
+}
+.sd_2{
+    background-color: #e91e62;
+    margin: 20px;
+}
+.sd_3{
+    background-color: #24caac;
+    margin: 20px;   
+}
+.sd_4{
+    background-color: #2e363e;
+    margin: 20px;
+}
+
+/*SUCCESS SECTİON END  */

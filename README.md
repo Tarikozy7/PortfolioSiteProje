@@ -1,3 +1,3 @@
 # proje
 
-![](gif/potfolio.gif)
+![](gif/portfolio.gif)
